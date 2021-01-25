@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.navbar{
+    background-color: bisque;
+    height: 98px;
+}
+
+.heading{
+    text-align: center;
+    /* padding:1% 25% 0.5%; */
+}
+
+h1{
+    color: rgb(33, 33, 33);
+    font-size: 30px;
+    font-weight:600;
+}
+
+.heading-img{
+    color: rgb(235, 197, 12);
+}
+
+.inner-header{
+    margin: 30px;
+    padding:10px 50px;
+}
+
+.header-tag{
+    font-size: 22px;
+    font-weight: 300;
+}
+/*------------------------*/
+
+/*------JPG-TO-PDF CONVERSION-------*/
+.jpg-to-pdf{
+    text-align: center;
+}
+.outer-part{
+    height: 300px;
+    margin: 20px 56px;
+    padding: 10px;
+    background-color:#ebc50c; 
+
+}
+
+.inner-part{
+    padding: 4%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.1);
+    border: dashed;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+/*----------------------------------*/
+
+/*-----------Services-------------*/
+.first-row{
+    margin: 7% 6% 2%;
+    text-align: center;
+}
+
+.second-row{
+    margin: 5% 6% 7%;
+    text-align: center;
+}
+
+.services .row h3{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212121;
+    line-height: 24px;
+}
+
+.services .row p{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+}
+
+.services .row .col-lg-4{
+    padding: 0 24px;
+}
+/*-----------------------*/
+
+/*-----About-us----------*/
+.about-us{
+    margin: 7% 4%;
+}
+
+.about-us h3{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #212121;
+}
+
+.about-us li{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+}
+
+.about-us .row{
+    margin-bottom: 120px;
+}
+
+.about-us-img{
+    text-align: center;
+}
+
+ol {
+    margin: 0 0 1.5em;
+    padding-left: 5%;
+    counter-reset: item;
+  }
+  
+  ol > li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+  }
+  
+  ol > li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    text-align: right;
+    content: counter(item) ".";
+  }
+  /*----------------------------*/
+
+  /*--------What to do----------*/
+  .what-to-do{
+        margin: 2% 6%;
+  }
+
+  .what-to-do h2, .what-to-do .what-to-do-img{
+      text-align: center;
+  }
+
+  .what-to-do h2{
+      font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 30px;
+      color: #212121;
+  }
+
+  .what-to-do p, .what-to-do .what-to-do-img{
+      cursor: pointer;
+  }
+
+  .what-to-do .para1{
+        font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #757575;
+  }
+
+  .what-to-do .para2{
+      font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #212121;
+  }
+
+  .what-to-do .para1:hover,
+  .what-to-do .para2:hover
+  {
+      text-decoration: underline;
+      text-decoration-color: #212121;
+  }
+
+  .what-to-do .para3{
+        font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #212121;
+  }
+/*-------------------------------*/
+
+/*-----------Rating-------------*/
+.star-rating{
+    flex-wrap: wrap;
+    flex: 0 auto;
+    justify-content: center;
+    margin: 5% 7%;
+}
+
+.star-rating h2{
+    text-align: right;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    margin: 8px 8px 0;
+}
+
+
+fieldset, label{
+    margin: 0; 
+    padding: 0; 
+}
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { 
+    display: none; 
+}
+
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: orange;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+/*---------------------------------*/
+
+/*-----------Footer1--------------*/
+.footer1{
+    margin: 4% 7% 8% 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1 .left-footer{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer1 .logo{
+    width: 120px;
+}
+
+.footer1 .left-footer p{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1a1a1a;
+    padding-top: 24px;
+}
+
+.footer1 .right-footer{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.footer1 .right-footer ul{
+    margin: -12px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+}
+
+.footer1 .right-footer .nav2, 
+.footer1 .right-footer .nav3{
+    margin-left: 80px;
+}
+
+.footer1 .right-footer h2{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a1a1a;
+} 
+
+.footer1 .right-footer a{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    padding: 12px 0px;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.footer1 .right-footer a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer1 .right-footer button{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #212121;
+    border: none;
+    color: white;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+/*----------------------------------*/
+
+/*---------Footer2------------------*/
+.footer2{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px 0px;
+}
+
+.footer2 .left-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer2 .left-footer li{
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.footer2 .left-footer .linkedin,
+.footer2 .left-footer .facebook,
+.footer2 .left-footer .instagram,
+.footer2 .left-footer .youtube,
+.footer2 .left-footer .twitter
+{
+    line-height: 18px;
+    font-size: 15px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(33, 33, 33);
+    transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+}
+
+.footer2 .left-footer .linkedin:hover{
+    color: #0e76a8;
+}
+.footer2 .left-footer .facebook:hover{
+    color: #3b5998;
+}
+.footer2 .left-footer .instagram:hover{
+    color: #ff62ab;
+}
+.footer2 .left-footer .youtube:hover{
+    color: #FF0000;
+}
+.footer2 .left-footer .twitter:hover{
+    color: #00acee;
+}
+
+
+.footer2 .right-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 2% 2%;
+    margin-right: 2%;
+}
+.footer2 .right-footer .microsoft,
+.footer2 .right-footer .playstore,
+.footer2 .right-footer .appstore{
+    padding: 0px 8px;
+}
+
+.footer2 .right-footer .microsoft .microsoft-box,
+.footer2 .right-footer .playstore .playstore-box,
+.footer2 .right-footer .appstore .appstore-box{
+    display: inline-block;
+    padding: 7px 11px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+}
+/*-----------------------------------------*/
+
+/*---------------Footer3-----------------*/
+.footer3{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0px;
+}
+
+.footer3 .left-footer .copyright{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    flex: 1 1 auto;
+}
+
+/* @media (prefers-reduced-motion: no-preference)
+.copyright-box{
+    animation: 2s ease 0s infinite normal none running copyright-box;
+} */
+
+.copyright-box{
+    color: rgb(242, 48, 48);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 4px 16px;
+}
+
+.footer3 .right-footer{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row
+}
+
+.footer3 .right-footer .privacy,
+.footer3 .right-footer .contact,
+.footer3 .right-footer .english{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    margin: 0px 10px 10px;
+}
+.footer3 .right-footer .privacy .privacy-link,
+.footer3 .right-footer .contact .contact-link,
+.footer3 .right-footer .english .english-link
+{
+    display: flex;
+    flex: 1 1 auto;
+    text-decoration: inherit;
+    color: inherit;
+}
+.footer3 .right-footer .english .english-link .fa-globe{
+    margin: 4px 4px 0 0;
+}
